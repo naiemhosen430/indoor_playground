@@ -1,0 +1,240 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+}
+
+/* ------------------------------- brand colors -------------------- */
+.light-dark {
+    background-color: #f1c22e;
+}
+.top-menu-icon-bg {
+    background-color: #13ac9b;
+}
+/* ----------------------------------- common global code ------------------- */
+.a-hover {
+    text-decoration: none;
+    color: black;
+}
+
+.a-btn {
+    background-color: black;
+    color: white;
+    transition: 0.5s ease-out;
+}
+
+.a-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.full-rounded {
+    border-radius: 40px;
+}
+
+/* ############################# home page start here ######################### */
+/* --------------- slider  */
+.custom-slider-item {
+    height: 600px;
+    background-color: black;
+    position: relative;
+}
+
+.custom-slider-item img {
+    opacity: 50%;
+    height: 600px;
+    width: 100%;
+    display: block;
+}
+
+.slider-content {
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.slider-content div {
+    width: 60%;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.slider-content h1 {
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.slider-content a {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 40px;
+    display: inline-block;
+    background-color: #f1c22e;
+    text-decoration: none;
+    transition: 0.5s linear;
+}
+
+.slider-content a:hover {
+    background-color: black;
+    color: white;
+}
+
+.hero-bottom-box {
+    margin-top: -100px;
+}
+
+.hero-bottom-single-box {
+    background-color: #fd4d40;
+}
+
+.hero-bottom-single-box:nth-child(2) {
+    background-color: #f1c22e;
+}
+
+.hero-bottom-single-box:nth-child(3) {
+    background-color: #16c3b0;
+}
+
+.hero-bottom-img-box,
+.hero-bottom-img-box2,
+.hero-bottom-img-box3 {
+    height: 80px;
+    width: 80px;
+    margin: auto;
+    margin-top: -50px;
+    border-radius: 40px;
+    background-color: #fd4d40;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-bottom-img-box2 {
+    background-color: #f1c22e;
+}
+
+.hero-bottom-img-box3 {
+    background-color: #16c3b0;
+}
+
+.hero-bottom-single-box a {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 40px;
+    display: inline-block;
+    background-color: #f1c22e;
+    text-decoration: none;
+    transition: 0.5s linear;
+}
+
+.hero-bottom-single-box a:hover {
+    background-color: black;
+    color: white;
+}
+
+/* -------------------------- welcome section-------------------- */
+.welcome-content a {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 50px;
+    border-radius: 40px;
+    display: inline-block;
+    background-color: #f1c22e;
+    text-decoration: none;
+    transition: 0.5s linear;
+}
+
+.welcome-content a:hover {
+    background-color: black;
+    color: white;
+}
+
+/* -------------------------- analize section-------------------- */
+.analize {
+    background-color: black;
+    position: relative;
+}
+.analize img {
+    width: 100%;
+    height: 300px;
+    opacity: 50%;
+}
+
+.analize > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 300px;
+    width: 100%;
+}
+
+.roted,
+.roted2,
+.roted3,
+.roted4 {
+    height: 100px;
+    width: 100px;
+    transform: rotate(45deg);
+    background-color: #fd4d40;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.roted2 {
+    background-color: #f1c22e;
+}
+
+.roted3 {
+    background-color: #16c3b0;
+}
+
+.roted4 {
+    background-color: #2db3d9;
+}
+
+.roted h1,
+.roted2 h1,
+.roted3 h1,
+.roted4 h1 {
+    transform: rotate(-45deg);
+    color: white;
+}
+
+/* -------------------------- program section-------------------- */
+.program > a {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 40px;
+    display: inline-block;
+    background-color: #f1c22e;
+    text-decoration: none;
+    transition: 0.5s linear;
+}
+
+.program > a:hover {
+    background-color: white;
+    color: black;
+}
+
+.program-single-box {
+    border-radius: 50px;
+    overflow: hidden;
+}
