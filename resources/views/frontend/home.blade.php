@@ -181,4 +181,155 @@
  </section>
  <!----------------------------------- program end here-------------------------------  -->
 
+ <!----------------------------------- why choose us start here-------------------------------  -->
+ <section class="whychooseus text-light row justify-content-center p-5 ">
+    <div class="col-5">
+        <h4>Why Choose Us</h4>
+        <h1>Best Kindergarten</h1>
+        <p class="py-2">Dolor sit amet, dolor gravida placerat liberolorem ipsum dolor consectetur adipiscing elit, sed do eiusmod. Dolor sit amet consectetuer adipiscing elit, sed diam nonummy nibh euismod. Praesent interdum est gravida vehicula est node maecenas loareet morbi a dosis luctus novum est praesent. Praesent interdum est gravida vehicula est node maecenas loareet morbi a dosis luctus novum est praesent.</p>
+
+        <div class="row py-2">
+            <div class="col-1 d-flex">
+                <i class="fa-solid h4 d-inline-block wcu-icon text-info bg-light rounded-5 fa-check"></i>
+            </div>
+            <p class="col-11 h5">1100% education, for your kids, consectetuer adipiscing elit, sed diam nonummy nibh euismod. Dolor sit amet, dolor gravida placerat liberolorem ipsum dolor consectetur adipiscing elit, sed do eiusmod.</p>
+        </div>
+
+        <div class="row py-2">
+            <div class="col-1 d-flex">
+                <i class="fa-solid h4 d-inline-block wcu-icon text-info bg-light rounded-5 fa-check"></i>
+            </div>
+            <p class="col-11 h5">More programs activities, sed diam nonummy nibh euismod. Lorem ipsum dolor sit amet..</p>
+        </div>
+
+        <div class="row py-2">
+            <div class="col-1 d-flex">
+                <i class="fa-solid h4 d-inline-block wcu-icon text-info bg-light rounded-5 fa-check"></i>
+            </div>
+            <p class="col-11 h5">More benefit nonummy nibh euismod. Lorem ipsum dolor sit amet, consectetuer adipiscing elit...</p>
+        </div>
+
+    </div>
+
+    <div class="col-4">
+        <img class="100" src="https://html.rometheme.pro/kids/images/teacher_promo.png" alt="">
+    </div>
+ </section>
+ <!----------------------------------- why choose us end here-------------------------------  -->
+
+ <!----------------------------------- gelary start here-------------------------------  -->
+ <section class="text-center program py-5">
+    <h5>Our Gallery</h5>
+    <h1>Moment from kids</h1>
+
+    <div class="row justify-content-center ">
+
+        <div class="gelary-img-box m-2">
+            <img class="w-100 gelary-image" src="https://html.rometheme.pro/kids/images/gallery-1.jpg" alt="">
+            <div class="hover-box">
+                <i class="fa-solid h1 d-inline-block fa-magnifying-glass"></i>
+            </div>
+        </div>
+
+        <div class="gelary-img-box m-2">
+            <img class="w-100 gelary-image" src="https://html.rometheme.pro/kids/images/gallery-2.jpg" alt="">
+            <div class="hover-box">
+                <i class="fa-solid h1 d-inline-block fa-magnifying-glass"></i>
+            </div>
+        </div>
+
+        <div class="gelary-img-box m-2">
+            <img class="w-100 gelary-image" src="https://html.rometheme.pro/kids/images/gallery-3.jpg" alt="">
+            <div class="hover-box">
+                <i class="fa-solid h1 d-inline-block fa-magnifying-glass"></i>
+            </div>
+        </div>
+
+        <div class="gelary-img-box m-2">
+            <img class="w-100 gelary-image" src="https://html.rometheme.pro/kids/images/gallery-4.jpg" alt="">
+            <div class="hover-box">
+                <i class="fa-solid h1 d-inline-block fa-magnifying-glass"></i>
+            </div>
+        </div>
+
+        <div class="gelary-img-box m-2">
+            <img class="w-100 gelary-image" src="https://html.rometheme.pro/kids/images/gallery-5.jpg" alt="">
+            <div class="hover-box">
+                <i class="fa-solid h1 d-inline-block fa-magnifying-glass"></i>
+            </div>
+        </div>
+
+        <div class="gelary-img-box m-2">
+            <img class="w-100 gelary-image" src="https://html.rometheme.pro/kids/images/gallery-6.jpg" alt="">
+            <div class="hover-box">
+                <i class="fa-solid h1 d-inline-block fa-magnifying-glass"></i>
+            </div>
+        </div>
+
+    </div>
+ </section>
+ <!----------------------------------- gelary end here-------------------------------  -->
+
+ <!----------------------------------- event start here-------------------------------  -->
+ <section class="text-center event program py-5">
+    <h5>Our Events</h5>
+    <h1>Don't miss our event</h1>
+
+    <div class="row justify-content-center ">
+
+        <div class="col-3 p-2 single-event-box m-4">
+            <img class="w-100" src="https://html.rometheme.pro/kids/images/event-1.jpg" alt="">
+
+            <div class="p-4 event-box-content">
+                <h3>English Day on Carfree day</h3>
+                <h5>March 19, 2016 / 08:00 am - 10:00 am</h5>
+                <p>We provide high quality design at vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores...</p>
+                <a href="/">Join now</a>
+            </div>
+        </div>
+
+        <div class="col-3 p-2 single-event-box m-4">
+            <img class="w-100" src="https://html.rometheme.pro/kids/images/event-2.jpg" alt="">
+
+            <div class="p-4 event-box-content">
+                <h3>Play & Study with Mrs. Smith</h3>
+                <h5>March 19, 2016 / 08:00 am - 10:00 am</h5>
+                <p>We provide high quality design at vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores...</p>
+                <a href="/">Join now</a>
+            </div>
+        </div>
+
+        <div class="col-3 p-2 single-event-box m-4">
+            <img class="w-100" src="https://html.rometheme.pro/kids/images/event-3.jpg" alt="">
+
+            <div class="p-4 event-box-content">
+                <h3>Drawing at City Park</h3>
+                <h5>March 19, 2016 / 08:00 am - 10:00 am</h5>
+                <p>We provide high quality design at vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores...</p>
+                <a href="/">Join now</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!----------------------------------- testimonials start here-------------------------------  -->
+<section class="text-center program py-5">
+   <h5>Our Testimonials</h5>
+   <h1>What parents say</h1>
+   <i class="fa fa-quote-right fa-3x"></i>
+
+   <div>
+    <div class="col-8 p-5 m-auto ">
+        <p class="h4 p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate impedit, aperiam at iste facere repellendus exercitationem porro dicta reprehenderit ut corrupti aspernatur</p>
+        <img class="testimonials-slider-img" src="https://html.rometheme.pro/kids/images/team-img2.jpg" alt="">
+        <h4 class="pt-4">---MD Naiem Hosen</h4>
+        <h6>Web developer</h6>
+    </div>
+   </div>
+</section>
+<!----------------------------------- testimonials end here-------------------------------  -->
+
+
+
  @endsection

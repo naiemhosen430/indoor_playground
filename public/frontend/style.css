@@ -238,3 +238,152 @@
     border-radius: 50px;
     overflow: hidden;
 }
+
+/* -------------------------- why choose us section-------------------- */
+
+.whychooseus {
+    background: url(https://html.rometheme.pro/kids/images/school2.jpg);
+}
+
+.wcu-icon {
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+/* -------------------------- gelary section-------------------- */
+
+.gelary-img-box {
+    background-color: black;
+    height: 300px;
+    transition: 0.5s linear;
+    position: relative;
+}
+
+.gelary-img-box > img {
+    height: 300px;
+    transition: 0.5s linear;
+}
+
+.gelary-image:hover {
+    opacity: 50%;
+}
+
+.hover-box:hover > .gelary-image {
+    opacity: 50%;
+}
+
+.gelary-img-box:hover > .gelary-image {
+    opacity: 50%;
+}
+
+.gelary-img-box > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: 0.5s linear;
+    display: none;
+}
+
+.gelary-img-box:hover > .hover-box {
+    display: flex;
+}
+
+.gelary-img-box div:hover > .hover-box {
+    display: flex;
+}
+
+/* -------------------------- event section-------------------- */
+
+.event {
+    background: url(https://html.rometheme.pro/kids/images/event-bg.png);
+}
+
+.single-event-box {
+    border-radius: 20px;
+    box-shadow: 0 5px 10px 2px gray;
+}
+
+.event-box-content h5 {
+    color: blue;
+    font-size: 15px;
+    padding: 5px 0;
+}
+
+.event-box-content a {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 40px;
+    display: inline-block;
+    background-color: #f1c22e;
+    text-decoration: none;
+    transition: 0.5s linear;
+}
+
+.event-box-content a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* -------------------------- testimonials section-------------------- */
+
+.testimonials-slider-img {
+    height: 120px;
+    width: 120px;
+    border-radius: 100px;
+    display: inline-block;
+    border: 10px solid gray;
+}
+
+/* -------------------------- footer section-------------------- */
+.contract-section {
+    background-color: #16c3b0;
+}
+
+.footer-header-a {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    padding: 15px 60px;
+    border-radius: 40px;
+    display: inline-block;
+    background-color: #f1c22e;
+    text-decoration: none;
+    transition: 0.5s linear;
+}
+
+.contract-section a:hover {
+    color: black;
+}
+
+.footer-menu {
+    background: url(https://html.rometheme.pro/kids/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.footer-option-a {
+    color: #3bab9e;
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+.footer-icon-bg {
+    border-radius: 50px;
+    transition: 0.5s linear;
+    padding: 40px 30px;
+}
+
+.footer-icon-bg:hover {
+    background-color: brown;
+}
