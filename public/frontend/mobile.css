@@ -1,0 +1,30 @@
+@media only screen and (max-width: 599px) {
+    .hero-bottom-box {
+        margin-top: 10px;
+    }
+
+    .analize img {
+        height: 1100px;
+    }
+
+    .analize > div {
+        height: 1100px;
+    }
+
+    .slider-content h1 {
+        font-size: 35px;
+    }
+
+    .custom-slider-item {
+        height: 300px;
+    }
+
+    .custom-slider-item img {
+        height: 300px;
+    }
+
+    .slider-content div {
+        width: 90%;
+        margin-top: 50px;
+    }
+}

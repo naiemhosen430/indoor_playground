@@ -30,7 +30,44 @@
 }
 
 .full-rounded {
-    border-radius: 40px;
+    border-radius: 50px;
+}
+
+.element-hover:hover {
+    width: 103% !important;
+    transition: 0.5s linear;
+    opacity: 90%;
+    background-color: rgb(183, 58, 10px, 58);
+}
+
+.left-border {
+    border-left: 5px solid gray;
+}
+
+.border-redius-top {
+    border-radius: 20px 20px 0px 0px;
+}
+
+/* --------------------------------------------- for menu  */
+.sub-menu {
+    background-color: #fd4d40;
+    position: absolute;
+    z-index: 10;
+    width: 200px;
+    display: none;
+    transition: 0.5s ease-out;
+}
+
+.menu-hover:hover > .sub-menu {
+    display: block;
+}
+
+.sub-menu-item {
+    color: white;
+}
+
+.sub-menu-item:hover {
+    background-color: black;
 }
 
 /* ############################# home page start here ######################### */
@@ -235,14 +272,16 @@
 }
 
 .program-single-box {
-    border-radius: 50px;
+    border-radius: 10px;
     overflow: hidden;
+    box-shadow: -3px 5px 10px 2px rgb(212, 203, 203);
 }
 
 /* -------------------------- why choose us section-------------------- */
 
 .whychooseus {
     background: url(https://html.rometheme.pro/kids/images/school2.jpg);
+    background-size: 100%;
 }
 
 .wcu-icon {
@@ -263,6 +302,7 @@
 
 .gelary-img-box > img {
     height: 300px;
+    width: 100%;
     transition: 0.5s linear;
 }
 
@@ -303,11 +343,12 @@
 
 .event {
     background: url(https://html.rometheme.pro/kids/images/event-bg.png);
+    background-size: 100%;
 }
 
 .single-event-box {
     border-radius: 20px;
-    box-shadow: 0 5px 10px 2px gray;
+    box-shadow: -3px 5px 10px 2px rgb(212, 203, 203);
 }
 
 .event-box-content h5 {
@@ -369,7 +410,7 @@
 .footer-menu {
     background: url(https://html.rometheme.pro/kids/images/bg.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .footer-option-a {
@@ -386,4 +427,75 @@
 
 .footer-icon-bg:hover {
     background-color: brown;
+    color: white;
+}
+
+/* ########################################### starting about us page #################### */
+/* ---------------------------- about us header section  */
+.aboutusheader {
+    background: url(https://html.rometheme.pro/kids/images/banner-single.jpg);
+}
+
+/* ########################################### starting contract page #################### */
+
+.sendmsgbtn {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    padding: 15px 60px;
+    border-radius: 40px;
+    display: inline-block;
+    background-color: #f1c22e;
+    text-decoration: none;
+    transition: 0.5s linear;
+}
+
+.sendmsgbtn:hover {
+    background-color: black;
+    color: white;
+}
+
+/* ########################################### starting 404 page #################### */
+.error404 {
+    font-size: 150px;
+    font-weight: bolder;
+    font-family: cursive;
+    letter-spacing: 10px;
+}
+
+.error-page-a {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 40px;
+    display: inline-block;
+    background-color: #f1c22e;
+    text-decoration: none;
+    transition: 0.5s linear;
+}
+
+.error-page-a:hover {
+    background-color: black;
+}
+
+/* ########################################### starting single event page #################### */
+
+.event-join-a {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 40px;
+    display: inline-block;
+    background-color: #f1c22e;
+    text-decoration: none;
+    transition: 0.5s linear;
+}
+
+.event-join-a:hover {
+    background-color: black;
 }
