@@ -57,3 +57,15 @@ Route::get('/events', function () {
 Route::get('/singleevent', function () {
     return view('frontend.singleevent');
 });
+
+Route::get('/news', function () {
+    return view('frontend.news');
+});
+
+Route::get('/news', function () {
+    return view('frontend.news');
+});
+
+Route::get('/single-news', function () {
+    return view('frontend.single-news');
+});

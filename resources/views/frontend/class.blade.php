@@ -16,7 +16,7 @@
 <!----------------------------------- class us header end here-------------------------------  -->
 
 <!----------------------------------- program start here-------------------------------  -->
-<section class="text-center program py-5 col-lg-10 m-auto ">
+<section class="text-center program py-5 col-lg-11 m-auto ">
 
 
     <div class="row justify-content-center p-5">
@@ -26,16 +26,16 @@
             <div class="p-2">
 
                 <div class="d-flex align-content-center justify-content-center py-2">
-                    <h1 class="w-50 fw-bolder h5">Drawing Classes</h1>
-                    <h1 class="w-50 h5 text-right">Drawing Classes</h1>
+                    <h1 class="w-50 h1-lg h6 fw-bolder h5">Drawing Classes</h1>
+                    <h1 class="w-50 h5 text-right">$20</h1>
                 </div>
                 <p class="text-info">Open Class : 08:00 am - 10:00 am</p>
                 <p class="py-2 text-left">We provide high quality design at vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores...Age 2-5 years</p>
             </div>
 
             <div class="d-flex my-0 align-content-center justify-content-center">
-                <p class="p-3 h6 w-50 my-0 text-light bg-danger">Age 2-5 years</p>
-                <p class="p-3 h6 w-50 my-0 text-light bg-info">Age 2-5 years</p>
+                <p class="py-3 px-2 h6 w-50 my-0 text-light bg-danger">Age 2-5 years</p>
+                <p class="py-3 px-2 h6 w-50 my-0 text-light bg-info">Age 2-5 years</p>
             </div>
         </div>
 
@@ -44,16 +44,16 @@
             <div class="p-2">
 
                 <div class="d-flex align-content-center justify-content-center py-2">
-                    <h1 class="w-50 fw-bolder h5">Drawing Classes</h1>
-                    <h1 class="w-50 h5 text-right">Drawing Classes</h1>
+                    <h1 class="w-50 h1-lg h6 fw-bolder h5">Drawing Classes</h1>
+                    <h1 class="w-50 h5 text-right">$20</h1>
                 </div>
                 <p class="text-info">Open Class : 08:00 am - 10:00 am</p>
                 <p class="py-2 text-left">We provide high quality design at vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores...Age 2-5 years</p>
             </div>
 
             <div class="d-flex my-0 align-content-center justify-content-center">
-                <p class="p-3 h6 w-50 my-0 text-light bg-danger">Age 2-5 years</p>
-                <p class="p-3 h6 w-50 my-0 text-light bg-info">Age 2-5 years</p>
+                <p class="py-3 px-2 h6 w-50 my-0 text-light bg-danger">Age 2-5 years</p>
+                <p class="py-3 px-2 h6 w-50 my-0 text-light bg-info">Age 2-5 years</p>
             </div>
         </div>
 
@@ -62,16 +62,16 @@
             <div class="p-2">
 
                 <div class="d-flex align-content-center justify-content-center py-2">
-                    <h1 class="w-50 fw-bolder h5">Drawing Classes</h1>
-                    <h1 class="w-50 h5 text-right">Drawing Classes</h1>
+                    <h1 class="w-50 h1-lg h6 fw-bolder h5">Drawing Classes</h1>
+                    <h1 class="w-50 h5 text-right">$20</h1>
                 </div>
                 <p class="text-info">Open Class : 08:00 am - 10:00 am</p>
                 <p class="py-2 text-left">We provide high quality design at vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores...Age 2-5 years</p>
             </div>
 
             <div class="d-flex my-0 align-content-center justify-content-center">
-                <p class="p-3 h6 w-50 my-0 text-light bg-danger">Age 2-5 years</p>
-                <p class="p-3 h6 w-50 my-0 text-light bg-info">Age 2-5 years</p>
+                <p class="py-3 px-2 h6 w-50 my-0 text-light bg-danger">Age 2-5 years</p>
+                <p class="py-3 px-2 h6 w-50 my-0 text-light bg-info">Age 2-5 years</p>
             </div>
         </div>
 
@@ -80,16 +80,16 @@
             <div class="p-2">
 
                 <div class="d-flex align-content-center justify-content-center py-2">
-                    <h1 class="w-50 fw-bolder h5">Drawing Classes</h1>
-                    <h1 class="w-50 h5 text-right">Drawing Classes</h1>
+                    <h1 class="w-50 h1-lg h6 fw-bolder h5">Drawing Classes</h1>
+                    <h1 class="w-50 h5 text-right">$20</h1>
                 </div>
                 <p class="text-info">Open Class : 08:00 am - 10:00 am</p>
                 <p class="py-2 text-left">We provide high quality design at vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores...Age 2-5 years</p>
             </div>
 
             <div class="d-flex my-0 align-content-center justify-content-center">
-                <p class="p-3 h6 w-50 my-0 text-light bg-danger">Age 2-5 years</p>
-                <p class="p-3 h6 w-50 my-0 text-light bg-info">Age 2-5 years</p>
+                <p class="py-3 px-2 h6 w-50 my-0 text-light bg-danger">Age 2-5 years</p>
+                <p class="py-3 px-2 h6 w-50 my-0 text-light bg-info">Age 2-5 years</p>
             </div>
         </div>
 
@@ -98,16 +98,16 @@
             <div class="p-2">
 
                 <div class="d-flex align-content-center justify-content-center py-2">
-                    <h1 class="w-50 fw-bolder h5">Drawing Classes</h1>
-                    <h1 class="w-50 h5 text-right">Drawing Classes</h1>
+                    <h1 class="w-50 h1-lg h6 fw-bolder h5">Drawing Classes</h1>
+                    <h1 class="w-50 h5 text-right">$20</h1>
                 </div>
                 <p class="text-info">Open Class : 08:00 am - 10:00 am</p>
                 <p class="py-2 text-left">We provide high quality design at vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores...Age 2-5 years</p>
             </div>
 
             <div class="d-flex my-0 align-content-center justify-content-center">
-                <p class="p-3 h6 w-50 my-0 text-light bg-danger">Age 2-5 years</p>
-                <p class="p-3 h6 w-50 my-0 text-light bg-info">Age 2-5 years</p>
+                <p class="py-3 px-2 h6 w-50 my-0 text-light bg-danger">Age 2-5 years</p>
+                <p class="py-3 px-2 h6 w-50 my-0 text-light bg-info">Age 2-5 years</p>
             </div>
         </div>
 
@@ -116,16 +116,16 @@
             <div class="p-2">
 
                 <div class="d-flex align-content-center justify-content-center py-2">
-                    <h1 class="w-50 fw-bolder h5">Drawing Classes</h1>
-                    <h1 class="w-50 h5 text-right">Drawing Classes</h1>
+                    <h1 class="w-50 h1-lg h6 fw-bolder h5">Drawing Classes</h1>
+                    <h1 class="w-50 h5 text-right">$20</h1>
                 </div>
                 <p class="text-info">Open Class : 08:00 am - 10:00 am</p>
                 <p class="py-2 text-left">We provide high quality design at vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores...Age 2-5 years</p>
             </div>
 
             <div class="d-flex my-0 align-content-center justify-content-center">
-                <p class="p-3 h6 w-50 my-0 text-light bg-danger">Age 2-5 years</p>
-                <p class="p-3 h6 w-50 my-0 text-light bg-info">Age 2-5 years</p>
+                <p class="py-3 px-2 h6 w-50 my-0 text-light bg-danger">Age 2-5 years</p>
+                <p class="py-3 px-2 h6 w-50 my-0 text-light bg-info">Age 2-5 years</p>
             </div>
         </div>
 

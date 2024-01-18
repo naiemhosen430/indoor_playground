@@ -16,7 +16,7 @@
     
     
     
-    <!-- hero bottom box  -->
+    <!-- about us box  -->
     <div class="py-5 text-light text-center row justify-content-center align-content-center p-4">
         <div class="p-4 hero-bottom-single-box rounded-3 col-lg-3 col-12 m-4 m-lg-0 pb-5">
             <div class="hero-bottom-img-box p-2">
@@ -59,10 +59,10 @@
     </div>
     
     <!----------------------------------- why choose us start here-------------------------------  -->
-    <section class="col-12 text-dark m-auto text-light row justify-content-center p-5 ">
+    <section class="col-12 text-dark m-auto text-light row justify-content-center p-lg-5 py-5 ">
         <div class="col-lg-5 col-12">
-            <h4>Why Choose Us</h4>
-            <h1>Best Kindergarten</h1>
+            <h4 class="h4-lg h6">Why Choose Us</h4>
+            <h1 class="h1-lg h3">Best Kindergarten</h1>
             <p class="py-2">Dolor sit amet, dolor gravida placerat liberolorem ipsum dolor consectetur adipiscing elit, sed do eiusmod. Dolor sit amet consectetuer adipiscing elit, sed diam nonummy nibh euismod. Praesent interdum est gravida vehicula est node maecenas loareet morbi a dosis luctus novum est praesent. Praesent interdum est gravida vehicula est node maecenas loareet morbi a dosis luctus novum est praesent.</p>
     
             <div class="row py-2">

@@ -16,50 +16,50 @@
 
 
 <!----------------------------------- main header start here-------------------------------  -->
-<section class="col-10 m-auto py-5 row">
+<section class="col-lg-10 m-auto py-5 row">
 
-    <div class="col-5 m-auto p-2 rounded-2 m-2 row">
-        <div class="col-3">
+    <div class="col-lg-5 col-12 m-auto p-lg-2 rounded-2 m-2 py-4 row-lg">
+        <div class="col-lg-3">
             <img class="w-100 full-rounded d-block" src="https://html.rometheme.pro/kids/images/team-img1.jpg" alt="">
         </div>
 
-        <div class="col-9">
+        <div class="col-lg-9 py-2">
             <p clas="py-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry orem Ipsum has been. Mauris ornare tortor in eleifend blanditullam ut ligula et neque. Nulla interdum dapibus erat nec elementum.</p>
             <h4>--John Doel</h4>
             <h6 class="text-info">Contractor</h6>
         </div>
     </div>
 
-    <div class="col-5 m-auto p-2 rounded-2 m-2 row">
-        <div class="col-3">
+    <div class="col-lg-5 col-12 m-auto p-lg-2 rounded-2 m-2 py-4 row-lg">
+        <div class="col-lg-3">
             <img class="w-100 full-rounded d-block" src="https://html.rometheme.pro/kids/images/team-img2.jpg" alt="">
         </div>
 
-        <div class="col-9">
+        <div class="col-lg-9 py-2">
             <p clas="py-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry orem Ipsum has been. Mauris ornare tortor in eleifend blanditullam ut ligula et neque. Nulla interdum dapibus erat nec elementum.</p>
             <h4>--John Doel</h4>
             <h6 class="text-info">Contractor</h6>
         </div>
     </div>
 
-    <div class="col-5 m-auto p-2 rounded-2 m-2 row">
-        <div class="col-3">
+    <div class="col-lg-5 col-12 m-auto p-lg-2 rounded-2 m-2 py-4 row-lg">
+        <div class="col-lg-3">
             <img class="w-100 full-rounded d-block" src="https://html.rometheme.pro/kids/images/team-img3.jpg" alt="">
         </div>
 
-        <div class="col-9">
+        <div class="col-lg-9 py-2">
             <p clas="py-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry orem Ipsum has been. Mauris ornare tortor in eleifend blanditullam ut ligula et neque. Nulla interdum dapibus erat nec elementum.</p>
             <h4>--John Doel</h4>
             <h6 class="text-info">Contractor</h6>
         </div>
     </div>
 
-    <div class="col-5 m-auto p-2 rounded-2 m-2 row">
-        <div class="col-3">
+    <div class="col-lg-5 col-12 m-auto p-lg-2 rounded-2 m-2 py-4 row-lg">
+        <div class="col-lg-3">
             <img class="w-100 full-rounded d-block" src="https://html.rometheme.pro/kids/images/team-img4.jpg" alt="">
         </div>
 
-        <div class="col-9">
+        <div class="col-lg-9 py-2">
             <p clas="py-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry orem Ipsum has been. Mauris ornare tortor in eleifend blanditullam ut ligula et neque. Nulla interdum dapibus erat nec elementum.</p>
             <h4>--John Doel</h4>
             <h6 class="text-info">Contractor</h6>

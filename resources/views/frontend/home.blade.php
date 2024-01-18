@@ -27,7 +27,7 @@
                <div class="hero-bottom-img-box p-2">
                    <i class="fa-regular h1 fa-clock"></i>
                </div>
-               <h1 class="h3">Full Day Programs</h1>
+               <h1 class="h3 stylest-front">Full Day Programs</h1>
                <p class="py-4 text-light">
                    Sedut perspiciatis unde omnis iste natus error sit voluptatem accusantium.
                </p>
@@ -40,7 +40,7 @@
                <div class="hero-bottom-img-box2 p-2">
                    <i class="fa-regular h1 fa-clock"></i>
                </div>
-               <h1 class="h3">Full Day Programs</h1>
+               <h1 class="h3 stylest-front">Full Day Programs</h1>
                <p class="py-4 text-light">
                    Sedut perspiciatis unde omnis iste natus error sit voluptatem accusantium.
                </p>
@@ -53,7 +53,7 @@
                <div class="hero-bottom-img-box3 p-2">
                    <i class="fa-regular h1 fa-clock"></i>
                </div>
-               <h1 class="h3">Full Day Programs</h1>
+               <h1 class="h3 stylest-front">Full Day Programs</h1>
                <p class="py-4 text-light">
                    Sedut perspiciatis unde omnis iste natus error sit voluptatem accusantium.
                </p>
@@ -195,10 +195,10 @@
     <!----------------------------------- program end here-------------------------------  -->
    
     <!----------------------------------- why choose us start here-------------------------------  -->
-    <section class="whychooseus col-12 m-auto text-light row justify-content-center p-5 ">
+    <section class="whychooseus col-12 m-auto text-light row justify-content-center p-lg-5 py-4 ">
        <div class="col-lg-5 col-12">
-           <h4>Why Choose Us</h4>
-           <h1>Best Kindergarten</h1>
+           <h4 class="h6 h4-lg">Why Choose Us</h4>
+           <h1 class="h4 h1-lg">Best Kindergarten</h1>
            <p class="py-2">Dolor sit amet, dolor gravida placerat liberolorem ipsum dolor consectetur adipiscing elit, sed do eiusmod. Dolor sit amet consectetuer adipiscing elit, sed diam nonummy nibh euismod. Praesent interdum est gravida vehicula est node maecenas loareet morbi a dosis luctus novum est praesent. Praesent interdum est gravida vehicula est node maecenas loareet morbi a dosis luctus novum est praesent.</p>
    
            <div class="row py-2">
@@ -237,42 +237,42 @@
 
         <div class="row m-auto justify-content-center ">
 
-            <div class="gelary-img-box p-0 m-2 col-3">
+            <div class="gelary-img-box p-0 m-2 col-lg-3 col-12">
                 <img class="w-100 gelary-image" src="https://html.rometheme.pro/kids/images/gallery-1.jpg" alt="">
                 <div class="hover-box">
                     <i class="fa-solid h1 d-inline-block fa-magnifying-glass"></i>
                 </div>
             </div>
 
-            <div class="gelary-img-box m-2 p-0 col-3">
+            <div class="gelary-img-box m-2 p-0 col-lg-3 col-12">
                 <img class="w-100 gelary-image" src="https://html.rometheme.pro/kids/images/gallery-2.jpg" alt="">
                 <div class="hover-box">
                     <i class="fa-solid h1 d-inline-block fa-magnifying-glass"></i>
                 </div>
             </div>
 
-            <div class="gelary-img-box m-2 p-0 col-3">
+            <div class="gelary-img-box m-2 p-0 col-lg-3 col-12">
                 <img class="w-100 gelary-image" src="https://html.rometheme.pro/kids/images/gallery-3.jpg" alt="">
                 <div class="hover-box">
                     <i class="fa-solid h1 d-inline-block fa-magnifying-glass"></i>
                 </div>
             </div>
 
-            <div class="gelary-img-box m-2 p-0 col-3">
+            <div class="gelary-img-box m-2 p-0 col-lg-3 col-12">
                 <img class="w-100 gelary-image" src="https://html.rometheme.pro/kids/images/gallery-4.jpg" alt="">
                 <div class="hover-box">
                     <i class="fa-solid h1 d-inline-block fa-magnifying-glass"></i>
                 </div>
             </div>
 
-            <div class="gelary-img-box m-2 p-0 col-3">
+            <div class="gelary-img-box m-2 p-0 col-lg-3 col-12">
                 <img class="w-100 gelary-image" src="https://html.rometheme.pro/kids/images/gallery-5.jpg" alt="">
                 <div class="hover-box">
                     <i class="fa-solid h1 d-inline-block fa-magnifying-glass"></i>
                 </div>
             </div>
 
-            <div class="gelary-img-box m-2 p-0 col-3">
+            <div class="gelary-img-box m-2 p-0 col-lg-3 col-12">
                 <img class="w-100 gelary-image" src="https://html.rometheme.pro/kids/images/gallery-6.jpg" alt="">
                 <div class="hover-box">
                     <i class="fa-solid h1 d-inline-block fa-magnifying-glass"></i>

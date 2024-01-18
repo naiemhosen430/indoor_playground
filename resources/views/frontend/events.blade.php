@@ -17,8 +17,8 @@
 
 <!----------------------------------- event start here-------------------------------  -->
 <section class="text-center event py-5 col-12 m-auto">
-    <h5>Our Events</h5>
-    <h1>Don't miss our event</h1>
+    <h5 class="h4-lg h5">Our Events</h5>
+    <h1 class="h1-lg h3">Don't miss our event</h1>
 
     <div class="row justify-content-center m-auto">
 
@@ -58,7 +58,6 @@
     </div>
 </section>
 <!----------------------------------- event end here-------------------------------  -->
-
 
 </section>
 

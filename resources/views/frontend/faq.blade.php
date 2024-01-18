@@ -16,7 +16,7 @@
 
 
 <!----------------------------------- faq main start here-------------------------------  -->
-<section class="col-8 m-auto py-5">
+<section class="col-lg-8 m-auto py-lg-5 py-4">
     <p class="h5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat.</p>
     <div class="py-5">
         <h1>What We Do</h1>

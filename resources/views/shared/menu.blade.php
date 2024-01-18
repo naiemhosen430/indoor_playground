@@ -78,10 +78,10 @@
                                     <a class="nav-link a-hover px-4 py-1 h6 sub-menu-item" href="/singleevent">Single Event</a>
                                 </li>
                                 <li>
-                                    <a class="nav-link a-hover px-4 py-1 h6 sub-menu-item" href="/">News</a>
+                                    <a class="nav-link a-hover px-4 py-1 h6 sub-menu-item" href="/news">News</a>
                                 </li>
                                 <li>
-                                    <a class="nav-link a-hover px-4 py-1 h6 sub-menu-item" href="/">Single News</a>
+                                    <a class="nav-link a-hover px-4 py-1 h6 sub-menu-item" href="/single-news">Single News</a>
                                 </li>
                             </ul>
                         </li>

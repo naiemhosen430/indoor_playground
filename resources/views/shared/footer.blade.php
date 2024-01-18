@@ -1,5 +1,5 @@
-<footer class="contract-section pt-5">
-    <div class="col-lg-10 col-12 m-auto row py-5">
+<footer class="contract-section pt-5 pt-0">
+    <div class="col-lg-10 col-12 m-auto row py-5 pt-0">
         <div class="col-lg-6 col-12 text-center text-lg-left">
             <h2 class="text-dark">Let's join the best kindergarten now!</h2>
             <p class="text-light py-2">We provide high standar clean website for your business solutions</p>
@@ -19,7 +19,7 @@
             </div>
 
             <div class="col-lg-3 col-12 p-2 text-info">
-                <h1 class="py-2 pt-4 h2">Contact Info</h1>
+                <h1 class="py-2 pt-4 h2 stylest-front">Contact Info</h1>
 
                 <div class="d-flex py-2">
                     <i class="fa-solid p-2 px-3 fa-location-dot"></i>
@@ -44,7 +44,7 @@
 
 
             <div class="col-lg-3 col-12 p-2 text-info">
-                <h1 class="py-2 pt-4 h2">Useful Links</h1>
+                <h1 class="py-2 pt-4 h2 stylest-front">Useful Links</h1>
 
                 <div class="d-flex py-2">
                     <i class="fa-solid p-2 px-3 fa-right-long"></i>
@@ -76,7 +76,7 @@
             </div>
 
             <div class="col-lg-3 col-12 p-2 text-info ">
-                <h1 class="py-2 pt-4 h2">Get in Touch</h1>
+                <h1 class="py-2 pt-4 h2 stylest-front">Get in Touch</h1>
                 <p class="text-light py-2">Lit sed The Best in dolor sit amet consectetur adipisicing elit sedconsectetur adipisicing</p>
 
                 <div class="d-flex justify-content-around">

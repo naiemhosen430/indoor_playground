@@ -16,8 +16,8 @@
 <!----------------------------------- Events header end here-------------------------------  -->
 
 <!----------------------------------- event start here-------------------------------  -->
-<section class=" event py-5 col-10 m-auto row">
-    <div class="col-8">
+<section class=" event py-5 col-lg-10 m-auto row">
+    <div class="col-lg-8">
         <img class="w-100" src="https://html.rometheme.pro/kids/images/event-preview-img.jpg" alt="">
         <h3 class="py-2">English Day on Carfree day</h3>
         <h5>March 19, 2016 / 08:00 am - 10:00 am</h5>
@@ -73,7 +73,7 @@
         </div>
     </div>
 
-    <div class="col-4">
+    <div class="col-lg-4">
         <div>
             <h1 class="p-2 border-redius-top h4 px-4 bg-dark text-light">Venue</h1>
             <div class="p-2">

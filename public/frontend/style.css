@@ -5,6 +5,11 @@
     outline: 0;
 }
 
+/* ---------------------------------- font -------------------------- */
+.stylest-front {
+    font-family: "Pacifico", cursive;
+}
+
 /* ------------------------------- brand colors -------------------- */
 .light-dark {
     background-color: #f1c22e;
@@ -48,6 +53,20 @@
     border-radius: 20px 20px 0px 0px;
 }
 
+.border-small {
+    border: 2px solid gray;
+}
+
+.tag-a {
+    color: blue;
+    transition: 0.5s linear;
+    text-decoration: none;
+}
+
+.tag-a:hover {
+    color: wheat;
+    background-color: blue;
+}
 /* --------------------------------------------- for menu  */
 .sub-menu {
     background-color: #fd4d40;
@@ -56,6 +75,10 @@
     width: 200px;
     display: none;
     transition: 0.5s ease-out;
+}
+
+.sub-menu li {
+    list-style: none;
 }
 
 .menu-hover:hover > .sub-menu {
@@ -498,4 +521,20 @@
 
 .event-join-a:hover {
     background-color: black;
+}
+
+/* ########################################### starting single news page #################### */
+
+.single-newx-right-a {
+    text-align: left;
+    font-size: 15px;
+    display: block;
+    text-decoration: none;
+    transition: 0.5s linear;
+    color: black;
+    font-weight: bolder;
+}
+
+.single-newx-right-a:hover {
+    background-color: rgb(220, 227, 227);
 }

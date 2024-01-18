@@ -20,42 +20,42 @@
 
     <div class="row m-auto justify-content-center ">
 
-        <div class="gelary-img-box p-0 m-2 col-3">
+        <div class="gelary-img-box p-0 m-2 col-lg-3 col-12">
             <img class="w-100 gelary-image" src="https://html.rometheme.pro/kids/images/gallery-1.jpg" alt="">
             <div class="hover-box">
                 <i class="fa-solid h1 d-inline-block fa-magnifying-glass"></i>
             </div>
         </div>
 
-        <div class="gelary-img-box m-2 p-0 col-3">
+        <div class="gelary-img-box m-2 p-0 col-lg-3 col-12">
             <img class="w-100 gelary-image" src="https://html.rometheme.pro/kids/images/gallery-2.jpg" alt="">
             <div class="hover-box">
                 <i class="fa-solid h1 d-inline-block fa-magnifying-glass"></i>
             </div>
         </div>
 
-        <div class="gelary-img-box m-2 p-0 col-3">
+        <div class="gelary-img-box m-2 p-0 col-lg-3 col-12">
             <img class="w-100 gelary-image" src="https://html.rometheme.pro/kids/images/gallery-3.jpg" alt="">
             <div class="hover-box">
                 <i class="fa-solid h1 d-inline-block fa-magnifying-glass"></i>
             </div>
         </div>
 
-        <div class="gelary-img-box m-2 p-0 col-3">
+        <div class="gelary-img-box m-2 p-0 col-lg-3 col-12">
             <img class="w-100 gelary-image" src="https://html.rometheme.pro/kids/images/gallery-4.jpg" alt="">
             <div class="hover-box">
                 <i class="fa-solid h1 d-inline-block fa-magnifying-glass"></i>
             </div>
         </div>
 
-        <div class="gelary-img-box m-2 p-0 col-3">
+        <div class="gelary-img-box m-2 p-0 col-lg-3 col-12">
             <img class="w-100 gelary-image" src="https://html.rometheme.pro/kids/images/gallery-5.jpg" alt="">
             <div class="hover-box">
                 <i class="fa-solid h1 d-inline-block fa-magnifying-glass"></i>
             </div>
         </div>
 
-        <div class="gelary-img-box m-2 p-0 col-3">
+        <div class="gelary-img-box m-2 p-0 col-lg-3 col-12">
             <img class="w-100 gelary-image" src="https://html.rometheme.pro/kids/images/gallery-6.jpg" alt="">
             <div class="hover-box">
                 <i class="fa-solid h1 d-inline-block fa-magnifying-glass"></i>
