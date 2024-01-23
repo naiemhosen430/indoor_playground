@@ -11,6 +11,9 @@
 }
 
 /* ------------------------------- brand colors -------------------- */
+.text-dark-light {
+    color: #d4ccce;
+}
 .light-dark {
     background-color: #f1c22e;
 }
@@ -20,7 +23,12 @@
 /* ----------------------------------- common global code ------------------- */
 .a-hover {
     text-decoration: none;
-    color: black;
+    color: #00004e;
+}
+
+.active-nav {
+    background-color: #fd4d40;
+    color: #ffffe7;
 }
 
 .a-btn {
@@ -41,16 +49,40 @@
 .element-hover:hover {
     width: 103% !important;
     transition: 0.5s linear;
-    opacity: 90%;
+    opacity: 105%;
     background-color: rgb(183, 58, 10px, 58);
 }
 
 .left-border {
-    border-left: 5px solid gray;
+    border-left: 5px solid #fd4d40;
 }
 
 .border-redius-top {
     border-radius: 20px 20px 0px 0px;
+}
+
+.single-event-dark-box {
+    background-color: #fd4d40;
+}
+
+.venue-box p:nth-child(1),
+.venue-box p:nth-child(4),
+.venue-box p:nth-child(2) {
+    font-weight: 700;
+}
+
+.etail-right-box p:nth-child(1),
+.etail-right-box p:nth-child(3) {
+    font-weight: 700;
+}
+
+.grganizer-box p:nth-child(1),
+.grganizer-box p:nth-child(3) {
+    font-weight: 700;
+}
+
+.venue-box p:nth-child(3) {
+    font-size: 17px;
 }
 
 .border-small {
@@ -67,7 +99,42 @@
     color: wheat;
     background-color: blue;
 }
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-body {
+    color: #d3c1b4;
+}
 /* --------------------------------------------- for menu  */
+.top-nav-contract {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.top-menu-icons i:nth-child(1) {
+    background-color: #fd4d40;
+}
+
+.top-menu-icons i:nth-child(2) {
+    background-color: #16c3b0;
+}
+
+.top-menu-icons i:nth-child(3) {
+    background-color: #ff7300;
+}
+
+.top-menu-icons i:nth-child(4) {
+    background-color: #2db3d9;
+}
+
+.top-nav-contract p {
+    line-height: 15px;
+}
+
 .sub-menu {
     background-color: #fd4d40;
     position: absolute;
@@ -75,6 +142,25 @@
     width: 200px;
     display: none;
     transition: 0.5s ease-out;
+    animation: sub-menu-animation 1s;
+    margin-top: 0px;
+}
+
+@keyframes sub-menu-animation {
+    0% {
+        margin-top: 100px;
+    }
+    100% {
+        margin-top: 0px;
+    }
+}
+
+.on-hover-hide {
+    display: block;
+}
+
+.on-hover-show {
+    display: none !important;
 }
 
 .sub-menu li {
@@ -85,12 +171,26 @@
     display: block;
 }
 
+.menu-hover:hover > .on-hover-hide {
+    display: none !important;
+}
+
 .sub-menu-item {
     color: white;
 }
 
 .sub-menu-item:hover {
-    background-color: black;
+    background-color: #16c3b0;
+    color: white;
+    transition: 0.5s linear;
+}
+
+.mobile-menu {
+    height: 100vh;
+}
+
+#mobile-menu {
+    display: none;
 }
 
 /* ############################# home page start here ######################### */
@@ -99,6 +199,10 @@
     height: 600px;
     background-color: black;
     position: relative;
+}
+
+.hero-header {
+    color: #a0c5e8;
 }
 
 .custom-slider-item img {
@@ -161,6 +265,42 @@
     background-color: #16c3b0;
 }
 
+.hero-bottom-single-box:nth-child(1) a {
+    background-color: #f1c22e;
+    transition: 0.5s linear;
+}
+
+.hero-bottom-single-box:nth-child(2) a {
+    background-color: #16c3b0;
+    transition: 0.5s linear;
+}
+
+.hero-bottom-single-box:nth-child(3) a {
+    background-color: #fd4d40;
+    transition: 0.5s linear;
+}
+
+.hero-bottom-single-box:nth-child(1) a:hover {
+    background-color: #f1c22e;
+    color: #fd4d40;
+}
+
+.hero-bottom-single-box:nth-child(2) a:hover {
+    background-color: #16c3b0;
+    color: #fd4d40;
+}
+
+.hero-bottom-single-box:nth-child(3) a:hover {
+    background-color: #fd4d40;
+    color: #fd4d40;
+}
+
+.hero-bottom-img-box-hover:hover {
+    margin-bottom: 10px !important;
+    margin-top: -10px !important;
+    transition: 0.5s linear;
+}
+
 .hero-bottom-img-box,
 .hero-bottom-img-box2,
 .hero-bottom-img-box3 {
@@ -203,11 +343,19 @@
 }
 
 /* -------------------------- welcome section-------------------- */
+.welcome-content h1 {
+    color: #fd4d40;
+}
+
+.welcome-content p {
+    color: #d8b299;
+}
+
 .welcome-content a {
     text-align: center;
     font-size: 15px;
     color: white;
-    font-weight: bold;
+    font-weight: 700;
     padding: 10px 50px;
     border-radius: 40px;
     display: inline-block;
@@ -228,7 +376,7 @@
 }
 .analize img {
     width: 100%;
-    height: 300px;
+    height: 350px;
     opacity: 50%;
 }
 
@@ -253,6 +401,7 @@
     justify-content: center;
     margin: auto;
     margin-bottom: 30px;
+    border-radius: 8px;
 }
 
 .roted2 {
@@ -276,6 +425,14 @@
 }
 
 /* -------------------------- program section-------------------- */
+.program h1 {
+    color: #fc4d40;
+}
+
+.program h5 {
+    color: #555555;
+}
+
 .program > a {
     text-align: center;
     font-size: 15px;
@@ -300,6 +457,54 @@
     box-shadow: -3px 5px 10px 2px rgb(212, 203, 203);
 }
 
+.program-single-box-header2 h1:nth-child(2) {
+    color: #f1c22e;
+    font-weight: 700;
+}
+
+.program-single-box h3 {
+    color: #f1c22e;
+    font-size: 1.286em;
+}
+
+.program-single-box h5 {
+    font-size: 14px;
+    color: #fd4d40;
+}
+
+.program-single-box p {
+    font-size: 17px;
+    color: #f1c22e;
+}
+
+.program-box-des {
+    color: #a499b0;
+}
+
+.program-box-footer p:nth-child(1) {
+    background-color: #fd4d40;
+    color: #fec1bd;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.program-box-footer p:nth-child(2) {
+    background-color: #f1c22e;
+    color: #ffffe4;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.program-botton {
+    background-color: #fd4d40 !important;
+    color: #fdd2f3 !important;
+}
+
+.program-botton:hover {
+    background-color: #f5a39d !important;
+    color: #fdd2f3 !important;
+}
+
 /* -------------------------- why choose us section-------------------- */
 
 .whychooseus {
@@ -308,13 +513,21 @@
 }
 
 .wcu-icon {
-    height: 40px;
-    width: 40px;
-    padding: 10px;
+    height: 30px;
+    width: 30px;
+    padding: 5px;
     border-radius: 40px;
 }
 
 /* -------------------------- gelary section-------------------- */
+.gelary h5 {
+    color: #555555;
+    font-size: 25px;
+}
+
+.gelary h1 {
+    color: #fd4d40;
+}
 
 .gelary-img-box {
     background-color: black;
@@ -327,6 +540,22 @@
     height: 300px;
     width: 100%;
     transition: 0.5s linear;
+}
+
+.whychooseus-sub h4 {
+    color: #555555;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.whychooseus-sub h1 {
+    color: #fd4d40;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.whychooseus-sub p {
+    font-size: 18px;
 }
 
 .gelary-image:hover {
@@ -364,6 +593,15 @@
 
 /* -------------------------- event section-------------------- */
 
+.event h5 {
+    color: #555555;
+    font-size: 25px;
+}
+
+.event h1 {
+    color: #fd4d40;
+}
+
 .event {
     background: url(https://html.rometheme.pro/kids/images/event-bg.png);
     background-size: 100%;
@@ -374,10 +612,25 @@
     box-shadow: -3px 5px 10px 2px rgb(212, 203, 203);
 }
 
+.event-box-content h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fd4d40;
+    text-align: left;
+}
+
 .event-box-content h5 {
-    color: blue;
-    font-size: 15px;
-    padding: 5px 0;
+    font-size: 13px;
+    margin-bottom: 20px;
+    color: #f1c22e;
+    text-align: left;
+}
+
+.event-box-content p {
+    font-size: 13px;
+    color: #bfa499;
+    text-align: left;
+    padding: 10px 0;
 }
 
 .event-box-content a {
@@ -398,14 +651,75 @@
     color: black;
 }
 
+.single-event-botton {
+    background-color: #fd4d40 !important;
+    color: #fdd2f3 !important;
+}
+
+.single-event-botton:hover {
+    background-color: #f5a39d !important;
+    color: #fdd2f3 !important;
+}
+
 /* -------------------------- testimonials section-------------------- */
+
+.testimonials > h5 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #555555;
+}
+
+.testimonials > h1 {
+    color: #fd4d40;
+    padding: 10px 0;
+    padding-bottom: 30px;
+}
+
+.testimonials > i {
+    font-size: 3em;
+    color: #f1c22e;
+}
 
 .testimonials-slider-img {
     height: 120px;
     width: 120px;
     border-radius: 100px;
     display: inline-block;
-    border: 10px solid gray;
+    border: 3px solid #fd4d40;
+}
+
+.testimonials-slider-item p {
+    font-size: 24px;
+    color: #f2c947;
+    padding-bottom: 20px;
+}
+
+.testimonials-slider-item > h4 {
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 34px;
+    color: #fd4d40;
+}
+
+.testimonials-slider-item > h6 {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: normal;
+    display: block;
+    color: #999999;
+}
+
+.client-single-box p {
+    color: #9999b2;
+    font-size: 15px;
+}
+
+.client-single-box h4 {
+    color: #fd4d40;
+}
+
+.client-single-box h6 {
+    color: #d8b299;
 }
 
 /* -------------------------- footer section-------------------- */
@@ -421,7 +735,7 @@
     padding: 15px 60px;
     border-radius: 40px;
     display: inline-block;
-    background-color: #f1c22e;
+    background-color: #fd4d40;
     text-decoration: none;
     transition: 0.5s linear;
 }
@@ -437,15 +751,20 @@
 }
 
 .footer-option-a {
-    color: #3bab9e;
+    color: #ffffff;
     text-decoration: none;
     padding: 10px 0;
+}
+
+.footer-option-a:hover {
+    transition: 0.5s linear;
+    color: #fd4d40;
 }
 
 .footer-icon-bg {
     border-radius: 50px;
     transition: 0.5s linear;
-    padding: 40px 30px;
+    padding: 10px;
 }
 
 .footer-icon-bg:hover {
@@ -453,10 +772,40 @@
     color: white;
 }
 
+.fotter-header h2 {
+    color: #f1c22e;
+    font-size: 25px;
+}
+
+.fotter-header p {
+    color: white;
+    font-size: 18px;
+}
+
+.footer-icon-bg-1 {
+    background-color: #fd4d40;
+}
+
+.footer-icon-bg-2 {
+    background-color: #16c3b0;
+}
+
+.footer-icon-bg-3 {
+    background-color: #ff7300;
+}
+
+.footer-icon-bg-4 {
+    background-color: #2db3d9;
+}
+
 /* ########################################### starting about us page #################### */
 /* ---------------------------- about us header section  */
 .aboutusheader {
     background: url(https://html.rometheme.pro/kids/images/banner-single.jpg);
+}
+
+.aboutus-why-chosseus-color {
+    color: #af999c;
 }
 
 /* ########################################### starting contract page #################### */
@@ -479,29 +828,51 @@
     color: white;
 }
 
+.input-field-color::placeholder {
+    color: #999999;
+}
+
+.input-field-color {
+    color: #999999;
+    font-size: 16px;
+}
+
 /* ########################################### starting 404 page #################### */
 .error404 {
     font-size: 150px;
-    font-weight: bolder;
-    font-family: cursive;
-    letter-spacing: 10px;
+    color: #fd4d40;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1;
+    font-family: "Pacifico", cursive;
+}
+
+.error-404 h2 {
+    font-size: 1.714em;
+    line-height: normal;
+    color: #f1c22e;
+}
+
+.error-404 p {
+    color: #9999a2;
 }
 
 .error-page-a {
     text-align: center;
     font-size: 15px;
-    color: white;
+    color: #eddeee;
     font-weight: bold;
     padding: 10px 40px;
     border-radius: 40px;
     display: inline-block;
-    background-color: #f1c22e;
+    background-color: #fd4d40;
     text-decoration: none;
     transition: 0.5s linear;
 }
 
 .error-page-a:hover {
-    background-color: black;
+    background-color: #007bff;
+    color: #eddeee;
 }
 
 /* ########################################### starting single event page #################### */
@@ -509,18 +880,44 @@
 .event-join-a {
     text-align: center;
     font-size: 15px;
-    color: white;
+    color: #fef3f3;
     font-weight: bold;
-    padding: 10px 40px;
+    padding: 10px 80px;
     border-radius: 40px;
     display: inline-block;
-    background-color: #f1c22e;
+    background-color: #fd4d40;
     text-decoration: none;
     transition: 0.5s linear;
 }
 
 .event-join-a:hover {
     background-color: black;
+}
+
+.single-event-left h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fd4d40;
+    font-family: "Open Sans", sans-serif;
+}
+
+.single-event-left h5 {
+    color: #f1c22e;
+    font-size: 12px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.single-event-left > p {
+    color: #999e99;
+}
+
+.single-event-left-middle h3 {
+    color: #fd4d40;
+}
+
+.single-event-left-middle p {
+    color: #9999af;
 }
 
 /* ########################################### starting single news page #################### */
@@ -531,10 +928,107 @@
     display: block;
     text-decoration: none;
     transition: 0.5s linear;
-    color: black;
+    color: #222;
     font-weight: bolder;
 }
 
 .single-newx-right-a:hover {
     background-color: rgb(220, 227, 227);
+}
+
+.news-tittle {
+    font-size: 20px;
+}
+
+.top-comment-details h6 {
+    font-weight: 400;
+    font-size: 12px;
+    display: block;
+    color: rgba(34, 34, 34, 0.3);
+}
+
+.top-comment-details h5 {
+    color: #222222;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.top-comment-details p {
+    color: #999999;
+}
+.all-comment-text {
+    color: #fd4d40;
+    font-size: 25px;
+}
+
+.single-comment-content p {
+    color: #d8b299;
+}
+
+.single-comment-content > h6 span:first-child {
+    color: #fd4d40;
+}
+
+.single-comment-content > h6 span:last-child {
+    color: #c0c0c0;
+}
+
+.widget-text {
+    color: #fd4d40;
+}
+
+.widget-text-p {
+    color: #999;
+}
+
+.widget-text-p2 {
+    color: #9c9999;
+}
+
+.archive-dropd h1 {
+    color: #fd4d40;
+}
+
+.archive-dropd select {
+    border: none;
+    color: #d19766;
+}
+
+.tag-box h1 {
+    color: #fd4d40;
+}
+
+.tag-box div a {
+    color: #c2aca9;
+    border: 2px solid #ccc;
+    background: none;
+}
+/* ########################################### starting faq page #################### */
+.faq-main p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #222222;
+}
+
+.faq-sub-main h1 {
+    color: #fd4d40;
+}
+
+.collaps-header {
+    font-weight: 700;
+    border-radius: 0;
+    background-color: #f2f2f2;
+    color: #222222;
+    font-size: initial;
+}
+
+.collaps-radio {
+    display: inline-block;
+    font-size: 100px;
+    margin: 10px 0;
+    width: 20px;
+    height: 20px;
 }

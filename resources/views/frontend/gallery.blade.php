@@ -2,21 +2,21 @@
 
 @section('content')
 
-<section class="col-12 ">
+<section class="col-12 px-0">
 
 <!----------------------------------- gelary header start here-------------------------------  -->
 <section class="aboutusheader text-center p-5">
-    <h1 class="text-light">Gallery</h1>
-    <div>
-        <a class="footer-option-a px-2 text-light" href="/">Home</a>
-        <a class="footer-option-a px-2 text-light" href="">Gallery</a>
+    <h1 class="text-light stylest-front py-2">Gallery</h1>
+    <div class="py-2">
+        <a class="footer-option-a px-2" href="/">Home</a>
+        <a class="footer-option-a px-2" href="">Gallery</a>
     </div>
 </section>
 <!----------------------------------- gelary header end here-------------------------------  -->
 
 
 <!-- ---------------------------------------- main section start here --------------------------  -->
-<section class="text-center py-5">
+<section class="text-center py-5 px-2">
 
     <div class="row m-auto justify-content-center ">
 
